@@ -8,3 +8,11 @@ Then execute the python script to know the output
 - $ python sample.py
 
     Hellow World!
+
+
+Some basic Git commands are:
+```
+git status
+git add
+git commit
+```
