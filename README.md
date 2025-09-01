@@ -20,7 +20,7 @@
 ```
 2+3
 ```
-- Output 
+ Output 
 
 ```
 5
@@ -30,7 +30,7 @@
 ```
 9-5
 ```
-- Output 
+ Output 
 
 ```
 4
@@ -40,7 +40,7 @@
 ```
 5/2
 ```
-- Output 
+ Output 
 
 ```
 # Floating number
@@ -53,7 +53,7 @@
 
 5//2
 ```
-- Output 
+ Output 
 
 ```
 #integer
@@ -64,7 +64,7 @@
 ```
 2*2
 ```
-- Output 
+ Output 
 
 ```
 4
@@ -76,7 +76,7 @@ How to square a number in Python, you can use the ** Operator
 2**2
 
 ```
-- Output
+ Output
 
 ```
 4
