@@ -69,7 +69,22 @@
 ```
 4
 ```
+
+How to square a number in Python, you can use the ** Operator
+
+```
+2**2
+
+```
+- Output
+
+```
+4
+```
+
+
 - In Python, int and float are two distinct numeric data types used to represent different kinds of numbers.
+  
 **1. Definition:**
 **int (Integer):**
 Represents whole numbers, both positive and negative, without any fractional or decimal part. Examples include 5, -10, 0, 1000.
