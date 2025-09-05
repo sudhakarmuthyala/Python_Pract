@@ -120,3 +120,16 @@ Represents real numbers that can have a fractional or decimal part. Examples inc
 1
 ```
 
+- Concatenation is used to combine two things like we can convert two strings into one using concatenation.
+- Concatenation is done using the (+) operator.
+  Ex: 'nani' + 'nani'
+
+- Repetition is used to print a single value multiple times like we can print a string like "nani" multiple times.
+- Repetition is done using the (*) operator.
+  Ex:  'nani ' * 5
+
+
+- (\n) has a special meaning in Python. It is used to enter a new line.
+- To print the original string or to neglect the meaning of \n, we have to use a Raw String.
+- Raw string is a string that returns it as it is without making any changes to it. 
+- We have to specify (r) before the quote to print the same string that is present inside the quotes.
