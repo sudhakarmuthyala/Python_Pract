@@ -1,0 +1,118 @@
+Python 3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+nums = [63, 24, 36, 95, 14, 24, 95]
+nums
+[63, 24, 36, 95, 14, 24, 95]
+
+
+nums[0]
+63
+nums [3]
+95
+
+nums[0:4]
+[63, 24, 36, 95]
+nums[0:]
+[63, 24, 36, 95, 14, 24, 95]
+
+ 
+nums[-5]
+36
+
+names = ['banana', 'apple', 'pomogranite']
+
+mil = ['nums' + 'names']
+
+
+mil
+['numsnames']
+
+
+mil = [nums, names]
+mil
+[[63, 24, 36, 95, 14, 24, 95], ['banana', 'apple', 'pomogranite']]
+nums.append(50)
+
+nums
+[63, 24, 36, 95, 14, 24, 95, 50]
+nums.insert(25)
+Traceback (most recent call last):
+  File "<pyshell#26>", line 1, in <module>
+    nums.insert(25)
+TypeError: insert expected 2 arguments, got 1
+nums.insert(3,25)
+nums
+[63, 24, 36, 25, 95, 14, 24, 95, 50]
+
+nums.count(0:)
+SyntaxError: invalid syntax
+nums.count(0:8)
+SyntaxError: invalid syntax
+nums.remove(2)
+Traceback (most recent call last):
+  File "<pyshell#32>", line 1, in <module>
+    nums.remove(2)
+ValueError: list.remove(x): x not in list
+
+
+nums[0:]
+[63, 24, 36, 25, 95, 14, 24, 95, 50]
+nums.remove(36)
+nums[0:]
+[63, 24, 25, 95, 14, 24, 95, 50]
+
+nums.pop(3)
+95
+nums[0:]
+[63, 24, 25, 14, 24, 95, 50]
+
+nums.pop()
+50
+
+del nums[0:3]
+nums[0:]
+[14, 24, 95]
+
+
+nums.clear(1)
+Traceback (most recent call last):
+  File "<pyshell#48>", line 1, in <module>
+    nums.clear(1)
+TypeError: list.clear() takes no arguments (1 given)
+
+nums.clear(14)
+Traceback (most recent call last):
+  File "<pyshell#50>", line 1, in <module>
+    nums.clear(14)
+TypeError: list.clear() takes no arguments (1 given)
+nums.clear()
+
+nums
+[]
+nums.extend(12, 24, 28, 98, 12, 7)
+Traceback (most recent call last):
+  File "<pyshell#54>", line 1, in <module>
+    nums.extend(12, 24, 28, 98, 12, 7)
+TypeError: list.extend() takes exactly one argument (6 given)
+nums.extend(12 23 7 18 98 45)
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+nums.extend([12, 98, 14, 56, 90, 6])
+nums
+[12, 98, 14, 56, 90, 6]
+min()
+Traceback (most recent call last):
+  File "<pyshell#58>", line 1, in <module>
+    min()
+TypeError: min expected at least 1 argument, got 0
+min(nums)
+6
+max(nums)
+98
+
+sum(nums)
+276
+
+nums.sort()
+nums
+[6, 12, 14, 56, 90, 98]
