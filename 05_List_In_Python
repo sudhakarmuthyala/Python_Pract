@@ -116,3 +116,68 @@ sum(nums)
 nums.sort()
 nums
 [6, 12, 14, 56, 90, 98]
+
+nums.sort()
+nums
+[6, 12, 14, 56, 90, 98]
+nums[0:]
+[6, 12, 14, 56, 90, 98]
+nums
+[6, 12, 14, 56, 90, 98]
+
+
+
+nums.reverse()
+nums
+[98, 90, 56, 14, 12, 6]
+print(nums)
+[98, 90, 56, 14, 12, 6]
+
+
+
+
+nums.copy()
+[98, 90, 56, 14, 12, 6]
+print(nums)
+[98, 90, 56, 14, 12, 6]
+
+
+nums_copy = nums.copy()
+nums_copy
+[98, 90, 56, 14, 12, 6]
+print(nums_copy)
+[98, 90, 56, 14, 12, 6]
+
+
+names
+['banana', 'apple', 'pomogranite']
+names.index(apple)
+Traceback (most recent call last):
+  File "<pyshell#88>", line 1, in <module>
+    names.index(apple)
+NameError: name 'apple' is not defined. Did you mean: 'tuple'?
+names.index(2)
+Traceback (most recent call last):
+  File "<pyshell#89>", line 1, in <module>
+    names.index(2)
+ValueError: 2 is not in list
+names
+['banana', 'apple', 'pomogranite']
+names.index()
+Traceback (most recent call last):
+  File "<pyshell#91>", line 1, in <module>
+    names.index()
+TypeError: index expected at least 1 argument, got 0
+
+names.index('apple')
+1
+names.index('2')
+Traceback (most recent call last):
+  File "<pyshell#94>", line 1, in <module>
+    names.index('2')
+ValueError: '2' is not in list
+names.index('pomogranite')
+2
+
+
+
