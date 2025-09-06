@@ -1,6 +1,12 @@
 # Python Practice for refresh 
 
-## Day 1: A basic program to print a message
+## Day 1: Python installation
+
+```
+https://www.python.org/downloads/
+```
+
+## Day 2: A basic program to print a message
 
 - Write the basic code in sample.py
 ```  
@@ -20,7 +26,7 @@
 ```
 
 
-## Day 2: A basic python program for operators and printer (addition, subtraction, devide & multiplication)
+## Day 3: A basic python program for operators and printer (addition, subtraction, devide & multiplication)
 
 - We do addition, subtraction and multiplication with integer values, and then it gives us answers also in integer data type.
 - But when performing division with integer values then it gives us an answer in float data type.
@@ -133,3 +139,15 @@ Represents real numbers that can have a fractional or decimal part. Examples inc
 - To print the original string or to neglect the meaning of \n, we have to use a Raw String.
 - Raw string is a string that returns it as it is without making any changes to it. 
 - We have to specify (r) before the quote to print the same string that is present inside the quotes.
+
+
+## Day 4: A basic variable in python
+
+- Variable in python:
+
+Variable: It is a container where we can put our value
+
+
+
+
+
