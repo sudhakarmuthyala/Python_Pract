@@ -1,0 +1,107 @@
+s = {22, 6, 4, 98, 66, 4, 22}
+
+
+s
+{66, 98, 4, 6, 22}
+
+
+s.add(55)
+s
+{66, 98, 4, 55, 6, 22}
+s.clear(22)
+Traceback (most recent call last):
+  File "<pyshell#23>", line 1, in <module>
+    s.clear(22)
+TypeError: set.clear() takes no arguments (1 given)
+s.clear(5)
+Traceback (most recent call last):
+  File "<pyshell#24>", line 1, in <module>
+    s.clear(5)
+TypeError: set.clear() takes no arguments (1 given)
+s.clear()
+s
+set()
+
+
+
+s = {2, 98, 55, 22, 78, 55, 78}
+
+s
+{2, 98, 22, 55, 78}
+set_copy = s.copy()
+set_copy
+{2, 98, 22, 55, 78}
+print(set_copy)
+{2, 98, 22, 55, 78}
+
+
+
+s.difference(set_copy)
+set()
+s
+{2, 98, 22, 55, 78}
+set_copy.add(66)
+s.difference(set_copy)
+set()
+s.difference(set_copy)
+set()
+set_copy
+{2, 98, 66, 22, 55, 78}
+set_copy.difference(s)
+{66}
+
+
+set_copy.difference_update(s)
+
+
+s
+{2, 98, 22, 55, 78}
+set_copy
+{66}
+
+
+set_copy.discard()
+Traceback (most recent call last):
+  File "<pyshell#55>", line 1, in <module>
+    set_copy.discard()
+TypeError: set.discard() takes exactly one argument (0 given)
+set_copy.discard(0)
+
+
+set_copy
+{66}
+set_copy.discard(66)
+
+
+set_copy
+set()
+
+
+
+
+
+s
+{2, 98, 22, 55, 78}
+
+
+x = {12, 23, 55, 2, 0}
+y = {55, 20, 2, 10}
+z = x.intersection(y)
+print(z)
+{2, 55}
+
+
+
+x
+{0, 2, 55, 23, 12}
+y
+{2, 10, 20, 55}
+
+
+x.intersection_update(y)
+print(x)
+{2, 55}
+
+
+print(y)
+{2, 10, 20, 55}
