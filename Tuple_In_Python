@@ -1,0 +1,25 @@
+Python 3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+
+tup = (12, 8, 98, 34, 2, 12)
+tup
+(12, 8, 98, 34, 2, 12)
+tup[0]
+12
+tup[0] = 22
+Traceback (most recent call last):
+  File "<pyshell#5>", line 1, in <module>
+    tup[0] = 22
+TypeError: 'tuple' object does not support item assignment
+
+tup.count(12)
+2
+tup.count(98)
+1
+tup.count(8)
+1
+
+
+tup.index(98)
+2
