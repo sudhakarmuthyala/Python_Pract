@@ -6,6 +6,23 @@
 https://www.python.org/downloads/
 ```
 
+##Python Indentation
+
+- Indentation refers to the spaces at the beginning of a code line.
+- Where in other programming languages the indentation in code is for readability only, the indentation in Python is very important.
+- Python uses indentation to indicate a block of code.
+
+```
+if 10 > 6:
+    print('Ten is greater than six')
+```
+
+- Output
+```
+Ten is greater than six
+
+```
+
 ## Day 2: A basic program to print a message
 
 - Write the basic code in sample.py
