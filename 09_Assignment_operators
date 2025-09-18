@@ -1,0 +1,64 @@
+## Assignment operators
+
+x = 5
+
+y = 4
+
+
+x + y
+9
+
+
+x - y
+1
+
+
+x * y
+20
+
+
+x / y
+1.25
+
+
+x
+5
+
+We can also use short cuts
+
+x += 2
+
+x
+7
+
+x *= 3
+x
+21
+
+
+x /= 3
+
+x
+7.0
+
+x %= 2
+
+x
+1.0
+
+y
+4
+
+y -= 2
+2
+
+y
+2
+
+## Is it possible to assign the two variables at a time 
+a,b = 3,2
+
+a
+3
+b
+2
