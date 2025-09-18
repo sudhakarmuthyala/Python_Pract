@@ -62,3 +62,96 @@ a
 3
 b
 2
+
+#Unary operator
+n = 5
+
+n
+5
+
+-n
+-5
+n = -n
+n
+-5
+
+
+#logical operator
+
+
+a
+3
+b
+2
+a < 2
+False
+a < b
+False
+a > b
+True
+
+
+a == b
+False
+b = 3
+a = b
+
+
+a == b
+True
+a
+3
+b
+3
+a <= b
+True
+a >= b
+True
+
+a != b
+False
+b = 4
+
+
+a != b
+True
+
+
+
+
+a = 5
+b =4
+b
+4
+
+
+a < 8 and b < 5
+True
+a < 8 and b < 2
+False
+
+
+
+a < 8 or b < 2
+True
+
+
+
+not x
+False
+x
+1.0
+x = true
+Traceback (most recent call last):
+  File "<pyshell#117>", line 1, in <module>
+    x = true
+NameError: name 'true' is not defined. Did you mean: 'True'?
+x = True
+
+
+not x
+False
+
+x = not x
+x
+False
