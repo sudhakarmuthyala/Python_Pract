@@ -52,6 +52,20 @@ range(0, 6)
 print(type(x))
 <class 'range'>
 
+#How to print even numbers
+
+x = range(10)
+print(x)
+range(0, 10)
+
+list(range(2,10,2))
+[2, 4, 6, 8]
+
+
+
+
+
+
 
 
 x = {"name" : "John", "age" : 36}
@@ -145,3 +159,28 @@ None
 
 print(type(x))
 <class 'NoneType'>
+
+
+#Dictionary data type
+
+a = {'Bengaluru':'KA', 'Hyderabad': 'TS', 'Mumbai' :'Maharastra'}
+a
+{'Bengaluru': 'KA', 'Hyderabad': 'TS', 'Mumbai': 'Maharastra'}
+
+a.keys()
+dict_keys(['Bengaluru', 'Hyderabad', 'Mumbai'])
+a.values()
+dict_values(['KA', 'TS', 'Maharastra'])
+
+
+a['Bengaluru']
+'KA'
+
+
+a.get('Hyderabad')
+'TS'
+a.get('TS')
+
+
+a.get('Hyderabad')
+'TS'
