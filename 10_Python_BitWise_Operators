@@ -1,0 +1,85 @@
+#Python BitWise Operators
+
+#complement (~) operator
+# complement operator will do reverse order
+~12
+-13
+
+
+bin(12)
+'0b1100'
+
+
+bin(13)
+'0b1101'
+
+
+
+#And (&)
+
+
+12 & 13
+
+12
+
+#1100
+#1101
+
+
+
+# x y -> xy
+# 0 0 -> 0
+# 0 1 -> 0
+# 1 0 -> 0
+# 1 1 -> 1
+
+
+#1100 out of 12 & 13 
+
+12
+
+
+
+#Or (|)
+
+12 | 13
+13
+
+
+# x y -> x+y
+
+# 0 0 -> 0
+# 0 1 -> 1
+# 1 0 -> 1
+# 1 1 -> 1
+
+#1100
+#1101
+
+#1101 output of 12 | 13
+
+#XOR(^)
+
+12 ^ 13
+1
+
+
+0 0 -> 0
+SyntaxError: invalid syntax
+#0 0 -> 0
+#0 1 -> 1
+#1 0 -> 1
+#1 1 -> 0
+
+
+bin(12)
+'0b1100'
+bin(13)
+'0b1101'
+
+
+#1100
+#1101
+#0001 Output of 12 ^ 13
+
+13
