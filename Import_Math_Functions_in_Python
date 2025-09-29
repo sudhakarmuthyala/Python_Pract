@@ -1,0 +1,92 @@
+
+import math
+
+
+x = sqrt(25)
+Traceback (most recent call last):
+  File "<pyshell#86>", line 1, in <module>
+    x = sqrt(25)
+NameError: name 'sqrt' is not defined
+
+
+
+x = math.sqrt(25)
+
+
+x
+5.0
+
+
+
+
+
+
+y = math.sqrt(64)
+
+y
+8.0
+
+
+
+y = math.sqrt(15)
+y
+3.872983346207417
+
+
+print(math.floor(y))
+3
+
+
+y
+3.872983346207417
+print(math.ceil(y))
+4
+
+
+#floor will give you least value
+#ceil will give you highest value
+
+
+
+# Power function
+
+y
+3.872983346207417
+
+
+
+
+
+3 ** 2
+9
+
+
+print(math.pow(3,2))
+9.0
+
+
+
+print(math.pi(3,2))
+Traceback (most recent call last):
+  File "<pyshell#137>", line 1, in <module>
+    print(math.pi(3,2))
+TypeError: 'float' object is not callable
+print(math.pi)
+3.141592653589793
+
+
+print(math.e)
+2.718281828459045
+
+
+
+import math as m
+
+
+
+print(m.sqrt(25))
+5.0
+
+
+print(m.pow(4,5))
+1024.0
